@@ -12,7 +12,7 @@ layout: default
    {% for bib in site.data.bib %}
 
           <p class="bibItem">
-            {{ bib.author }}
+            {{ bib.author.family | first }}
             ({{ bib.issued.date-parts[0] }})
           <class="pubDate">{{ bib.issued[1] }}</class>
           {% if bib.type == "book" %}
@@ -26,7 +26,7 @@ layout: default
   {% endfor %}
   {% for bib in site.data.bib %}
     <ul>
-      {{ bib.accessed.date-parts }}
+      {{ bib.accessed.date-parts | first }}
     </ul>
   {% endfor %}
    </div>
