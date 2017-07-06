@@ -9,10 +9,11 @@ layout: default
 
   <div class="post-content">
  <div id="reflist">
+
    {% for bib in site.data.bib %}
 
           <p class="bibItem">
-            {{ bib.author }}
+            {{ bib.author|   }}
             ({{ bib.issued.date-parts[0] }})
           <class="pubDate">{{ bib.issued[1] }}</class>
           {% if bib.type == "book" %}
@@ -24,11 +25,25 @@ layout: default
          </p>
 
   {% endfor %}
+<ul>
   {% for bib in site.data.bib %}
-    <ul>
+    {% if bib.accessed | size == 1 %}
+    <li>
       {{ bib.accessed.date-parts | first }}
-    </ul>
+    </li>
+    {% endif %}
   {% endfor %}
+  </ul>
+  <ul>
+
+{% assign authors = {{ site.data.bib.author.family }} | split: " " %}
+{% for authors in authors  %}
+    <li>
+      {{authors.family}}
+    </li>
+
+{% endfor %}
+<ul>
    </div>
  </div>
 
