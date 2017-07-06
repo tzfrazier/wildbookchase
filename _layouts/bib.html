@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <div class="post-content">
+ <div id="reflist">
+   {% for bib in site.data.bib %}
+
+          <p class="bibItem">
+            {{ bib.author }}
+            ({{ bib.issued.date-parts[0] }})
+          <class="pubDate">{{ bib.issued[1] }}</class>
+          {% if bib.type == "book" %}
+          <em><a id="#{{ bib.id }}">{{ bib.title }}</a></em>
+         {% else %}
+         <a id="#{{ bib.id }}">{{ bib.title }}</a>
+         {% endif %}
+        <hr/>
+         </p>
+
+  {% endfor %}
+  {% for bib in site.data.bib %}
+    <ul>
+      {{ bib.accessed.date-parts }}
+    </ul>
+  {% endfor %}
+   </div>
+ </div>
+
+  </div>
+
+</article>
