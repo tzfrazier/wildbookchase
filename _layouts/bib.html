@@ -9,15 +9,14 @@ layout: default
 
   <div class="post-content">
  <div id="reflist">
-# prints items from bibliography file Yaml or JSON
+
    {% for bib in site.data.bib %}
-      
-      <p class="bibItem">
-            {{if bib.author | size =< 5 }}
-              {{ bib.author | map: "family" | join: " " }}
-              ({{ bib.issued.date-parts[0] }})
-              <class="pubDate">{{ bib.issued[1] }}</class>
-              {% if bib.type == "book" %}
+
+          <p class="bibItem">
+            {{ bib.author | map: "family" | join: ", & "}}
+            ({{ bib.issued.date-parts[0] }})
+          <class="pubDate">{{ bib.issued[1] }}</class>
+          {% if bib.type == "book" %}
           <em><a id="#{{ bib.id }}">{{ bib.title }}</a></em>
          {% else %}
          <a id="#{{ bib.id }}">{{ bib.title }}</a>
@@ -26,6 +25,7 @@ layout: default
          </p>
 
   {% endfor %}
+{% comment %}
 <ul>
   {% for bib in site.data.bib %}
     {% if bib.accessed | size == 1 %}
@@ -35,8 +35,7 @@ layout: default
     {% endif %}
   {% endfor %}
   </ul>
-  <ul>
-<ul>
+  {% endcomment %}
    </div>
  </div>
 
