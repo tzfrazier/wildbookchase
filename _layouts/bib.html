@@ -9,18 +9,37 @@ layout: default
 
   <div class="post-content">
  <div id="reflist">
+{% comment %}start of reference list{% endcomment %}
 
-   {% for citation in site.data.bib %}
+     {% for ref in site.data.bib | %} {% comment %}starts loop{% endcomment %}
 
-          <p class="bibItem">
-
-            ({{ bib.publication-date }})
-          <class="pubDate">{{ bib.issued[1] }}</class>
-          {% if bib.type == "book" %}
-          <em><a id="#{{ bib.id }}">{{ bib.title }}</a></em>
+          <p class="bibItem">{% comment %}bib item tag{% endcomment %}
+            {% comment %}authors {% endcomment %}
+            <span class="author">
+              {% assign author = ref.Author | split: ";" %} {% comment %}Pulls data out of map/object and assigns it to variable that can be pulled. split makes it so each author is speporated as an entity in the array that is created{% endcomment %}
+              {% for person in author  %} {% comment %} stores the informaiton from authors array in a varible that can be further manipulated {% endcomment %}
+              {% assign names = person | split: "," %}{% comment %} takes the data now stored in a variable and further process it putting it back in an array {% endcomment %}
+              <span class=lastName>{{ names[0] | append: "," }}</span> {% comment %}prints last name{% endcomment %}
+                <span class="firstName_initials">
+                  {% assign firstNames = names[1] | split: " " %} {% comment %}Takes the first nam(s) of authors and seporated them{% endcomment %}
+                  {{ firstNames[0] | slice: 0 | append: "."}} {% comment %}takes the first name and cuts it to the first letter{% endcomment %}
+                  {% comment %}checks to see if there is another letter. If the conditional is true, prints the second initinal.{% endcomment %}
+                  {%if firstNames[1] | size =< 1 %}
+                  {{ firstNames[1] | slice: 0 | append: "."}}
+                  {% endif %}</span>
+            </span>
+            {% endfor %}
+            {% comment %}/authors{% endcomment %}
+          {% comment %}date{% endcomment %}
+          <class="pubDate">({{ ref.publicationYear }}).</class>
+          {% comment %}/date{% endcomment %}
+          <!--Work title-->
+          {% if ref.itemType == "book" %}
+          <span id="#{{ ref.key }}"><em>{{ ref.Title }}</em></span>
          {% else %}
-         <a id="#{{ bib.id }}">{{ bib.title }}</a>
+           <span id="#{{ ref.key }}">{{ ref.Title }}</span>
          {% endif %}
+
         <hr/>
          </p>
 

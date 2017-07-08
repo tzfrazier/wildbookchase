@@ -1,0 +1,12 @@
+this code tries to dress up for success
+{% if person | size => 1 %}
+{% case person %}
+{% when person | last %}
+{{ name[0] | prepend: " & " }}
+{% endcase %}
+
+
+This code works but I mgiht screw it up. 
+{{ names[0] | append: "," }}
+{% assign firstLetter = names[1] | split: "" %}
+{{ firstLetter[1] | append: "."}}

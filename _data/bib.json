@@ -1,10 +1,11 @@
-{
-  "IUEXGPFC": {
-    "itemType": "thesis",
+[
+  {
+    "Key": "IUEXGPFC",
+    "Item Type": "thesis",
     "publicationYear": 2004,
     "Author": "Damarin, Amanda Kidd",
     "Title": "Fit, flexibility, and connection: Organizing employment in emerging Web labor markets, New York City, 1993--2003",
-    "publicationTitle": "",
+    "Publication Title": "",
     "ISBN": "",
     "ISSN": "",
     "DOI": "",
@@ -87,12 +88,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "HG78EXDB": {
-    "itemType": "journalArticle",
+  {
+    "Key": "HG78EXDB",
+    "Item Type": "journalArticle",
     "publicationYear": 2004,
     "Author": "Fidel, Raya; Pejtersen, Annalise Mark",
     "Title": "From Information behaviour Research to the Design of Information Systems: the Cognitive Work Analysis Framework",
-    "publicationTitle": "Information Research",
+    "Publication Title": "Information Research",
     "ISBN": "",
     "ISSN": "",
     "DOI": "",
@@ -175,12 +177,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "ZUPT9GTI": {
-    "itemType": "thesis",
+  {
+    "Key": "ZUPT9GTI",
+    "Item Type": "thesis",
     "publicationYear": 2014,
     "Author": "Sayyad Abdi, Elham",
     "Title": "Web professionals : how do they experience information literacy?",
-    "publicationTitle": "",
+    "Publication Title": "",
     "ISBN": "",
     "ISSN": "",
     "DOI": "",
@@ -263,12 +266,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "S5BZ3XEJ": {
-    "itemType": "book",
+  {
+    "Key": "S5BZ3XEJ",
+    "Item Type": "book",
     "publicationYear": 1991,
     "Author": "Seidman, I. E.",
     "Title": "Interviewing as qualitative research: a guide for researchers in education and the social sciences",
-    "publicationTitle": "",
+    "Publication Title": "",
     "ISBN": "978-0-8077-3074-4",
     "ISSN": "",
     "DOI": "",
@@ -351,12 +355,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "VZVKB33M": {
-    "itemType": "report",
+  {
+    "Key": "VZVKB33M",
+    "Item Type": "report",
     "publicationYear": 2007,
     "Author": "Gill, Rosalind",
     "Title": "Technobohemians Or the New Cybertariat?: New Media Work on Amsterdam a Decade After the Web: Report",
-    "publicationTitle": "",
+    "Publication Title": "",
     "ISBN": "",
     "ISSN": "",
     "DOI": "",
@@ -439,12 +444,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "7MVMBA6K": {
-    "itemType": "journalArticle",
+  {
+    "Key": "7MVMBA6K",
+    "Item Type": "journalArticle",
     "publicationYear": 2015,
     "Author": "Laing, Simon; Masoodian, Masood",
     "Title": "A study of the role of visual information in supporting ideation in graphic design",
-    "publicationTitle": "Journal of the Association for Information Science and Technology",
+    "Publication Title": "Journal of the Association for Information Science and Technology",
     "ISBN": "",
     "ISSN": "2330-1643",
     "DOI": "10.1002/asi.23231",
@@ -527,12 +533,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "AIM9SRSB": {
-    "itemType": "journalArticle",
+  {
+    "Key": "AIM9SRSB",
+    "Item Type": "journalArticle",
     "publicationYear": 2016,
     "Author": "Beaudoin, Joan E.",
     "Title": "Content-based image retrieval methods and professional image users",
-    "publicationTitle": "Journal of the Association for Information Science and Technology",
+    "Publication Title": "Journal of the Association for Information Science and Technology",
     "ISBN": "",
     "ISSN": "2330-1643",
     "DOI": "10.1002/asi.23387",
@@ -615,12 +622,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "QV9KZVPT": {
-    "itemType": "webpage",
+  {
+    "Key": "QV9KZVPT",
+    "Item Type": "webpage",
     "publicationYear": "",
     "Author": "Staff, A. L. A.",
     "Title": "Findings from the Survey, 2011",
-    "publicationTitle": "",
+    "Publication Title": "",
     "ISBN": "",
     "ISSN": "",
     "DOI": "",
@@ -703,12 +711,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "E4X2JTB9": {
-    "itemType": "book",
+  {
+    "Key": "E4X2JTB9",
+    "Item Type": "book",
     "publicationYear": 2015,
     "Author": "Hinton, Andrew",
     "Title": "Understanding context: environment, language, and information architecture",
-    "publicationTitle": "",
+    "Publication Title": "",
     "ISBN": "978-1-4493-2317-2",
     "ISSN": "",
     "DOI": "",
@@ -791,12 +800,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "B3DE3M9J": {
-    "itemType": "book",
+  {
+    "Key": "B3DE3M9J",
+    "Item Type": "book",
     "publicationYear": 2011,
     "Author": "Kennedy, H.",
     "Title": "Net Work: Ethics and Values in Web Design",
-    "publicationTitle": "",
+    "Publication Title": "",
     "ISBN": "978-0-230-23140-5",
     "ISSN": "",
     "DOI": "",
@@ -879,12 +889,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "K9NFPFC6": {
-    "itemType": "journalArticle",
+  {
+    "Key": "K9NFPFC6",
+    "Item Type": "journalArticle",
     "publicationYear": 1998,
     "Author": "Christ, W. G.; Potter, W J",
     "Title": "Media literacy, media education, and the academy",
-    "publicationTitle": "Journal of Communication",
+    "Publication Title": "Journal of Communication",
     "ISBN": "",
     "ISSN": "1460-2466",
     "DOI": "10.1111/j.1460-2466.1998.tb02733.x",
@@ -967,12 +978,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "ZAEEKDW8": {
-    "itemType": "bookSection",
+  {
+    "Key": "ZAEEKDW8",
+    "Item Type": "bookSection",
     "publicationYear": 2007,
     "Author": "Kellner, Douglas; Share, Jeff",
     "Title": "Critical media literacy, democracy, and the reconstruction of education",
-    "publicationTitle": "Media literacy: A reader",
+    "Publication Title": "Media literacy: A reader",
     "ISBN": "",
     "ISSN": "",
     "DOI": "",
@@ -1055,12 +1067,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "CJ4XKNU8": {
-    "itemType": "journalArticle",
+  {
+    "Key": "CJ4XKNU8",
+    "Item Type": "journalArticle",
     "publicationYear": 2003,
     "Author": "Dervin, Brenda",
     "Title": "Human studies and user studies: a call for methodological inter-disciplinarity",
-    "publicationTitle": "Information Research",
+    "Publication Title": "Information Research",
     "ISBN": "",
     "ISSN": "",
     "DOI": "",
@@ -1143,12 +1156,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "XWFJ2RWK": {
-    "itemType": "book",
+  {
+    "Key": "XWFJ2RWK",
+    "Item Type": "book",
     "publicationYear": 2015,
     "Author": "Glesne, Corrine",
     "Title": "Becoming Qualitative Researchers: An Introduction",
-    "publicationTitle": "",
+    "Publication Title": "",
     "ISBN": "978-0-13-385939-3",
     "ISSN": "",
     "DOI": "",
@@ -1231,12 +1245,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "88GWJ7CH": {
-    "itemType": "book",
+  {
+    "Key": "88GWJ7CH",
+    "Item Type": "book",
     "publicationYear": 2013,
     "Author": "Maxwell, Joseph A.",
     "Title": "Qualitative Research Design: An Interactive Approach",
-    "publicationTitle": "",
+    "Publication Title": "",
     "ISBN": "978-1-4129-8119-4",
     "ISSN": "",
     "DOI": "",
@@ -1319,12 +1334,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "JRTBN6PN": {
-    "itemType": "bookSection",
+  {
+    "Key": "JRTBN6PN",
+    "Item Type": "bookSection",
     "publicationYear": 2010,
     "Author": "Ankerson, Megan Sapnar",
     "Title": "Web industries, economic, aesthetics: mapping the look of the wweb in the dot-com era",
-    "publicationTitle": "Web History",
+    "Publication Title": "Web History",
     "ISBN": "978-1-4331-0468-8",
     "ISSN": "",
     "DOI": "",
@@ -1360,7 +1376,7 @@
     "Link Attachments": "",
     "Manual Tags": "",
     "Automatic Tags": "",
-    "Editor": "Br�_gger, Niels",
+    "Editor": "Brügger, Niels",
     "Series Editor": "",
     "Translator": "",
     "Contributor": "",
@@ -1407,12 +1423,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "DQGXFN96": {
-    "itemType": "bookSection",
+  {
+    "Key": "DQGXFN96",
+    "Item Type": "bookSection",
     "publicationYear": 2010,
-    "Author": "Br�_gger, Niels",
+    "Author": "Brügger, Niels",
     "Title": "Web history, an emerging feild of study",
-    "publicationTitle": "Web History",
+    "Publication Title": "Web History",
     "ISBN": "978-1-4331-0468-8",
     "ISSN": "",
     "DOI": "",
@@ -1448,7 +1465,7 @@
     "Link Attachments": "",
     "Manual Tags": "",
     "Automatic Tags": "",
-    "Editor": "Br�_gger, Niels",
+    "Editor": "Brügger, Niels",
     "Series Editor": "",
     "Translator": "",
     "Contributor": "",
@@ -1495,12 +1512,13 @@
     "History": "",
     "Legislative Body": ""
   },
-  "T6VWA7WP": {
-    "itemType": "journalArticle",
+  {
+    "Key": "T6VWA7WP",
+    "Item Type": "journalArticle",
     "publicationYear": 2014,
     "Author": "E. Beaudoin, Joan",
     "Title": "A framework of image use among archaeologists, architects, art historians and artists",
-    "publicationTitle": "Journal of Documentation",
+    "Publication Title": "Journal of Documentation",
     "ISBN": "",
     "ISSN": "",
     "DOI": "",
@@ -1583,4 +1601,4 @@
     "History": "",
     "Legislative Body": ""
   }
-}
+]
