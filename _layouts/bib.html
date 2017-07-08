@@ -10,11 +10,11 @@ layout: default
   <div class="post-content">
  <div id="reflist">
 
-   {% for bib in site.data.bib %}
+   {% for citation in site.data.bib %}
 
           <p class="bibItem">
-            {{ bib.author | map: "family" | join: ", & "}}
-            ({{ bib.issued.date-parts[0] }})
+
+            ({{ bib.publication-date }})
           <class="pubDate">{{ bib.issued[1] }}</class>
           {% if bib.type == "book" %}
           <em><a id="#{{ bib.id }}">{{ bib.title }}</a></em>
