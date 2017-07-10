@@ -33,28 +33,30 @@ layout: default
           {% comment %}date{% endcomment %}
           <class="pubDate">({{ ref.publicationYear }}).</class>
           {% comment %}/date{% endcomment %}
-          <!--Work title-->
-          {% if ref.itemType == "book" %}
-          <span id="#{{ ref.key }}"><em>{{ ref.Title }}</em></span>
-         {% else %}
-           <span id="#{{ ref.key }}">{{ ref.Title }}</span>
-         {% endif %}
+          <!--work specific information-->
 
+        <!-- Book Sections -->
+         {% if ref.itemType == "bookSection"  %} <!-- for other works -->
+           <span id="#{{ ref.Key }}">{{ ref.Title }}</span>.
+             <!--Journal Articles-->
+        {% elsif ref.itemType == "journalArticle" %}
+        <!--Books-->
+        {% else  %}<!--for books that need title em-->
+        <span id="#{{ ref.Key }}" class="title"><em>{{ ref.Title }}</em></span>.
+        <span class="pubinfo">
+          {% if ref.Place | size => 1 %}
+          {{ ref.Place}}: {{ ref.Publisher }}
+          {% else %}
+        {{ ref.Publisher }}
+        {% endif %}
+        </span>
+
+          {% endif %}
         <hr/>
          </p>
 
   {% endfor %}
-{% comment %}
-<ul>
-  {% for bib in site.data.bib %}
-    {% if bib.accessed | size == 1 %}
-    <li>
-      {{ bib.accessed.date-parts[0] | first }}
-    </li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-  {% endcomment %}
+
    </div>
  </div>
 
